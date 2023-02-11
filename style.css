@@ -1,0 +1,95 @@
+body{
+    margin: 0px auto;
+}
+
+/* UL tag */
+ul{
+    list-style: none;
+}
+
+/* navbar css */
+.nav{
+    display: flex;
+    height: 80px;
+    background-color:black;
+    color: white;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+/* left nav section (Shipping cart */
+.leftNav{
+    float: left;
+    margin-right: 60vw;
+}
+
+/* right nav section */
+.rightNav{
+    display: flex;
+}
+
+/* right nav list items */
+#list{
+    display: flex;
+}
+
+li{
+    margin-left: 0.5rem;
+    margin-right: 2rem;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+/* outer product details section class */
+.productPage{
+    margin: 0px auto;
+    width: fit-content;
+    text-align: center;
+}
+
+/* image only */
+img{
+    width: 340px;
+    height: 300px;
+    object-fit:scale-down;
+}
+
+/* products details class*/
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    
+    text-align: center;
+    margin: 0px auto;
+    justify-content:center;
+}
+
+/* product class for each product card */
+.product{
+    width: 340px;
+    text-align: left;
+    margin:auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+/* inner class for product details */
+.inner{
+    width: fit-content;
+    margin: 1rem;
+}
+
+.product:hover{
+    cursor: pointer;
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2); 
+}
